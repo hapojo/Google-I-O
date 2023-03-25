@@ -24,5 +24,153 @@
     height: 220px;
 }
 
+.ways-to-engage {
+    padding: 10px;
+    margin-top: 10px;
+}
 
-@media all and (max-width: 991px) {}
+.ways-to-engage-head {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.engage-content-img {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.engage-content-img img {
+    width: 200px;
+}
+
+.engage-content h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.engage-content p {
+    margin-bottom: 10px;
+}
+
+.frequent-question {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.FAQ-heads {
+    width: 30%;
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+
+.FAQ-heads ul {
+    width: 100%;
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.FAQ-heads li {
+    margin-bottom: 30px;
+}
+
+.FAQ-heads a {
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.FAQ-content {
+    width: 70%;
+    overflow-y: scroll;
+}
+
+.list-link-content {
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.list-link-head {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid #000000;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.list-link-body {
+    padding: 10px 20px;
+}
+
+.list-link-body h4 {
+    font-weight: bold;
+}
+
+.list-link-border {
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+}
+
+.recap {
+    width: 100%;
+    border: 2px solid #000000;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.recap h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.recap p {
+    color: #000000;
+    font-size: 18px;
+}
+
+.recap img {
+    width: 100%;
+    height: 220px;
+}
+
+@media all and (max-width: 991px) {
+    .frequent-question {
+        flex-direction: column;
+    }
+
+    .FAQ-heads {
+        width: 100%;
+    }
+
+    .FAQ-heads ul {
+        display: flex;
+        gap: 20px;
+        overflow-x: scroll;
+    }
+
+    .FAQ-heads li {
+        margin-bottom: 0;
+    }
+
+    .FAQ-heads a {
+        width: 100%;
+        display: flex;
+    }
+
+    .FAQ-content {
+        width: 100%;
+    }
+}

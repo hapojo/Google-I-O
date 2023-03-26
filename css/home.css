@@ -17,7 +17,7 @@ a {
 }
 
 .navbar {
-    padding: 10px 15px;
+    padding: 10px 30px;
 }
 
 .navbar-toggler {
@@ -77,12 +77,13 @@ a {
 }
 
 .google-container {
-    padding: 20px 25px;
+    padding: 20px 40px;
 }
 
 /* Google i/o */
 .group-let-go-io {
     width: 100%;
+    height: 100% !important;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -94,7 +95,7 @@ a {
     width: 70%;
     border: 1px solid #202124;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .pattern-image {
@@ -102,12 +103,12 @@ a {
     border: 1px solid #202124;
     border-radius: 15px;
     margin-bottom: 20px;
+    background: rgb(255 187 1);
 }
 
 .pattern-image img {
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    height: 320px;
     border-radius: 15px;
 }
 
@@ -115,6 +116,10 @@ a {
     background: #e8eaed;
     border: 2px solid #202124;
     border-radius: 8px;
+}
+
+.timer-day {
+    text-align: left;
 }
 
 /* Let go */
@@ -281,6 +286,10 @@ a {
         border-bottom: 2px solid #202124;
     }
 
+    .navbar {
+        padding: 5px;
+    }
+
     .navbar-nav {
         padding-left: 20px
     }
@@ -296,6 +305,10 @@ a {
 
     .registration {
         padding-right: 20px;
+    }
+
+    .google-container {
+        padding: 20px;
     }
 
     .group-let-go-io {
@@ -342,7 +355,7 @@ a {
 }
 
 @media all and (max-width: 771px) {
-    .registration button {
+    .registration .register {
         display: none;
     }
 }

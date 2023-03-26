@@ -1,5 +1,5 @@
 .community-body {
-    padding: 20px 25px;
+    padding: 20px 40px;
 }
 
 .community-developer {
@@ -165,6 +165,10 @@
 
 
 @media all and (max-width: 991px) {
+    .community-body {
+        padding: 20px;
+    }
+
     .IO-open {
         flex-direction: column;
     }

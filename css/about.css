@@ -1,5 +1,5 @@
 .about-body {
-    padding: 20px 25px;
+    padding: 20px 40px;
 }
 
 .about-developer {
@@ -147,6 +147,11 @@
 }
 
 @media all and (max-width: 991px) {
+
+    .about-body {
+        padding: 20px;
+    }
+
     .frequent-question {
         flex-direction: column;
     }
